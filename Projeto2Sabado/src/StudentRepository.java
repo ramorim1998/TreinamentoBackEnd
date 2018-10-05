@@ -37,6 +37,7 @@ public class StudentRepository {
 	public List<Student> readAll(Student student) {
 		return this.dbStudents;
 	}
+
 	private void incSequenceStudent() {
 		this.sequenceStudents++;
 	}

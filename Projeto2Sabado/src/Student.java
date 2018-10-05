@@ -10,6 +10,7 @@ public class Student {
 		this.name = name;
 		this.course = course;
 	}
+
 	public Long getId() {
 		return id;
 	}
@@ -17,6 +18,7 @@ public class Student {
 	public void setId(Long id) {
 		this.id = id;
 	}
+
 	public Integer getRegister() {
 		return register;
 	}
@@ -45,9 +47,9 @@ public class Student {
 	public String toString() {
 		return "Student [register=" + register + ", name=" + name + ", course=" + course + "]";
 	}
-	public boolean equals (Student student) {
+
+	public boolean equals(Student student) {
 		return id.equals(student.id);
 	}
-	
-}
 
+}
